@@ -1,4 +1,4 @@
-# 📚 SecureDoc Manager
+# 📚 Document Management System
 
 A modern, secure, and scalable document management system built with FastAPI, designed to streamline document handling with robust access controls and efficient file management capabilities.
 
@@ -20,8 +20,7 @@ A modern, secure, and scalable document management system built with FastAPI, de
 - **RESTful API**: Clean, intuitive endpoints following REST principles
 - **Asynchronous Processing**: Built with Python's async/await for performance
 - **Containerized**: Ready for Docker deployment
-- **Comprehensive Testing**: Unit, integration, and load testing
-- **Automated Workflows**: CI/CD ready with GitHub Actions
+- **Comprehensive Testing**: Unit, integration, and load 
 
 ## 🏗 Technology Stack
 
@@ -83,12 +82,8 @@ A modern, secure, and scalable document management system built with FastAPI, de
 
 3. Set up PostgreSQL database and update `.env`
 
-4. Run database migrations:
-   ```bash
-   alembic upgrade head
-   ```
 
-5. Start the development server:
+4. Start the development server:
    ```bash
    uvicorn app.main:app --reload
    ```
@@ -167,36 +162,6 @@ CORS_ORIGINS=http://localhost:3000,http://localhost:4200
    ```bash
    docker-compose -f docker-compose.prod.yml up --build -d
    ```
-
-### Cloud Deployment
-- **AWS**: Deploy using ECS/EKS with RDS
-- **GCP**: Use Cloud Run with Cloud SQL
-- **Azure**: Deploy to App Service with Azure Database for PostgreSQL
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-For support or questions, please open an issue in the repository or contact [your-email@example.com](mailto:your-email@example.com)
-
-## 🙏 Acknowledgments
-
-- FastAPI for the amazing web framework
-- SQLAlchemy for powerful ORM capabilities
-- PostgreSQL for reliable data storage
-- All open-source contributors
-
----
 
 ## API Endpoints
 
